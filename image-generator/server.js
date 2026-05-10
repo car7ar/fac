@@ -8,6 +8,9 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
+console.log('--- SERVER STARTING UP ---');
+console.log('Time:', new Date().toISOString());
+
 /**
  * Health check / Wake up endpoint
  */
